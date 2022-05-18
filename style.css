@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html {
+    font-size: 75%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.main-section {
+    background-color: black;
+}
+
+.heading-primary {
+    color: #404040;
+    font-size: 18rem;
+}
+
+.secondary-heading {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 6rem;
+    color: #f1c50e;
+    width: 100%;
+}
+
+.padding-row {
+    padding: 0px 80px 50px 80px;
+}
+
+.heading-tertiary {
+    font-size: 3.5rem;
+}
+
+.para {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.contact-icon {
+    font-size: 5rem;
+    color: #f1c50e;
+}
+
+.contact-icon:hover {
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+}
+
+.contact-info {
+    font-size: 1.6rem;
+    line-height: 1.2;
+}
+
+.input-fields {
+    font-size: 1.6rem !important;
+    border-radius: 0rem !important;
+    background-color: transparent !important;
+    border: 0.2rem solid #fff !important;
+    padding: 0.8rem 1.6rem !important;
+}
+
+.form-check-label {
+    font-size: 1.2rem;
+}
+
+.checkbox-label {
+    font-size: 1.6rem;
+}
+
+.terms-and-service-link {
+    color: #d3bcf3;
+}
+
+.terms-and-service-link:hover {
+    color: #a1a1a1;
+}
+
+.form-btn {
+    font-size: 1.4rem;
+    padding: 1rem 2.5rem;
+    border-radius: 0.6rem;
+    background-color: #f1c50e;
+}
